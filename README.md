@@ -84,7 +84,11 @@ ReactDOM.render(
 
 Efter att ha startat om klienten så bör allt se ut som innan. Nästa steg blir att försöka hämta lite data från servern.
 
-För att använda GraphQL från klienten måste vi definiera vår _Query_. Detta görs enklast via en fördefinierad `gql`-tag som tillhandahålls från paketet `graphql-tag` som vi installerade tidigare.
+För att använda GraphQL från klienten måste vi definiera vår _Query_. Detta görs
+enklast via en fördefinierad `gql`-tag som tillhandahålls från paketet
+`graphql-tag` som vi installerade tidigare.
+
+I `App.js` lägger vi till vår Query och använder den sedan i vår `<App/>`-komponent.
 
 ```javascript
 import gql from "graphql-tag";
